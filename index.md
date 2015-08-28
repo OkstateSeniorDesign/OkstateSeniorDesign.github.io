@@ -18,15 +18,15 @@ Insert information about the project here!
 Nathan Lea
 
 ###Project Manager
-Brain French
+Brian French
 
 ###Team Members
 
-Matt Litchfield
+Matt Lichfield
 
 Dante Ye
 
-Michael Ptitzner
+Michael Pfitzner
 
 ####Post List
 
