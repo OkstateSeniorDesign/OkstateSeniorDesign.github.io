@@ -10,6 +10,8 @@ Read the [Project Guidelines](http://ecen4013.okstate.edu/docs/project2/fa2015/F
 
 ##About:
 
+Link to our [github](https://github.com/OkstateSeniorDesign)
+
 Insert information about the project here!
 
 ##The Team
