@@ -24,7 +24,7 @@ Brian French
 
 Matt Lichfield
 
-Dante Ye
+Dante Xiang
 
 Michael Pfitzner
 
