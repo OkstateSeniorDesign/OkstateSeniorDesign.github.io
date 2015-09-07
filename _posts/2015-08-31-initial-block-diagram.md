@@ -13,5 +13,3 @@ tags: [Nathan, Block Diagram]
 
 Link to this [dia file](\assets\BlockDiagram\BlockDiagramV0.dia)
 
-Link to the new Block Diagram [dia file](\assets\BlockDiagram\BlockDiagram.dia)
-
