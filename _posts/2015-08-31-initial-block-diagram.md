@@ -10,3 +10,8 @@ tags: [Nathan, Block Diagram]
 ##Block Diagram
 
 <img src="\assets\BlockDiagram\BlockDiagramV0.png" width="800" height="470">
+
+Link to this [dia file](\assets\BlockDiagram\BlockDiagramV0.dia)
+
+Link to the new Block Diagram [dia file](\assets\BlockDiagram\BlockDiagram.dia)
+
