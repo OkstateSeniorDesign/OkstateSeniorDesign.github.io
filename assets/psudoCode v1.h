@@ -1,20 +1,21 @@
+
 const static short RGBlength;
 const static short RGBhight;
 
 //Buffers for the LED matrix
 
 uint_16 buffA[RGBlength][RGBhight];
-uint_16 buffB[RGBlength][RGBhight];
+uint_16 buffA[RGBlength][RGBhight];
 bool useBuff;
 
-int main(int argc,char *argv[]) {
+int main(int argc,char *argv[]){
 	setup();
 	loop();
 	return 0;
 }
-void loop() {
+void loop(){
 	uint_16 ** toUse;
-	while(volatile true) {
+	while(volatile true){
 		if(useBuff)
 			toUse=buffA;
 		else	
@@ -28,7 +29,7 @@ void loop() {
 	}	
 }
 
-int setup() {
+int setup(){
 	#ifdef DEBUG
 		initUART(BAUDRATE);
 	#endif
@@ -47,21 +48,24 @@ int setup() {
 	gie();
 }
 //NFC Interrupt Pin set high
-ISR(PCINT2_vect) {
+ISR(PCINT2_vect)
+{
     //Process NFC data
 }
 //Strike Detector Interrupt Pin set high
-ISR(PCINT1_vect) {
+ISR(PCINT1_vect)
+{
     //Process Strike Detector
 }
 ISR(TIMER1_OVF_vect) {
 	//SPI out next row/column for LEDMatrix "When should I hit my damn hammer"
 }
+
 ISR(TIMER0_OVF_vect) {
 	//SPI out next row/column for LEDMatrix WeponDisplay
 }
 
-void initSPI() {
+initSPI(){
 	// Set MOSI, SCK as Output
     DDRB = (1<<5)|(1<<3);
     // Enable SPI, Set as Master
@@ -69,23 +73,8 @@ void initSPI() {
     SPCR = (1<<SPE)|(1<<MSTR)|(1<<SPR0);	
 }
 
-//Enums for Slave select 
-//Slave select will all be on the same port 
-enum SLAVE :uint_8
+unsigned char comSPI (unsigned char data)
 {
-	audio=0b00000001,
-	nfc = 0b00000010,
-	strikeDetector = 0b00000100,
-	weaponIndicatorMatrix = 0b00001000,
-	hitIndicatorMatrix = 0b00010000
-};
-void sendSPI(SLAVE slave,unsigned char data) {
-	//Slave select
-	PORTX = slave;
-	//Send Data
-	comSPI(data);
-}
-unsigned char comSPI (unsigned char data) {
     // Load data into the buffer
     SPDR = data;
  
