@@ -19,4 +19,4 @@ built in MP3 format decoder
 
 $1.79
 
-<img src="\assets\FlowChart\AudioPlayer.jpg">
+<img src="\assets\AudioPlayer.jpg">
