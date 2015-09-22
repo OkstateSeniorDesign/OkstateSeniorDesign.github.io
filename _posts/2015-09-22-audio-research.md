@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Audio Module Research"
-description: "Audio Player with TF card, MP3 format decoder,amplifer"
+description: "Audio Player with TF card, MP3 format decoder,amplifier"
 category: Research
 tags: [Audio,Research,Dante,Brian]
 ---
