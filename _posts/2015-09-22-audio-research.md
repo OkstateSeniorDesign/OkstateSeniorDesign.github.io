@@ -20,3 +20,7 @@ built in MP3 format decoder
 $1.79
 
 <img src="\assets\AudioPlayer.jpg">
+
+#Shift Register
+
+##[Datasheets](https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf)
