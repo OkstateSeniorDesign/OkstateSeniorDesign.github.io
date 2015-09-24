@@ -23,4 +23,4 @@ $1.79
 
 #Shift Register
 
-##[Datasheets](https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf)
+###[Datasheets](https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf)
