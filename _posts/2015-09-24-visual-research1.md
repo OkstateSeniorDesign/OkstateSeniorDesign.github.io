@@ -9,4 +9,4 @@ tags: [Visual,Research,Dante]
 
 #Shift Register
 
-###[74HC595 Datasheets](https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf)
+###[ 74HC595 Datasheets ](https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf)
